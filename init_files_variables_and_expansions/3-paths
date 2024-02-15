@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | sort -d | grep / | wc -l
+echo $PATH | tr '\v'  | grep / | wc -l

@@ -1,3 +1,2 @@
 #!/bin/bash
 expot PATH=$PATH | grep / | wc -l
-

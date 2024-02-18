@@ -62,6 +62,10 @@ One file name per line
 The listing should end with a new line
 You are not allowed to use basename, grep, egrep, fgrep or rgrep
 
+find . -empty: This command uses the find utility to search for all files with zero size in the current directory and its subdirectories. The -empty option specifies that only files with zero size should be considered.
+
+-printf "%f\n": This command specifies that only the filenames (not the full paths) of the matching files should be printed, followed by a newline character.
+
 
 24. Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 
